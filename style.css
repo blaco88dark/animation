@@ -1,0 +1,31 @@
+.container{
+    background-color: blue;
+}
+.box{
+    width: 100px;
+    height: 150px; 
+    border-radius: 45%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+}
+.box1{
+    background-color: blanchedalmond;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-name: strich;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+   
+}
+@keyframes strich {
+0% {
+   top: 0;
+}
+100%{
+ top :120px;
+ background-color: blue;
+}
+}
